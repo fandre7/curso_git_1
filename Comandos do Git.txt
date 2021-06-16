@@ -5,7 +5,7 @@ git init        * Inicializa um repositorio no git, cria uma pasta oculta .git
 or create a new repository on the command line
 echo "# curso_git_1" >> README.md
 git init
-git add README.md
+git add README.md  (Envia um arquivo específico)
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/fandre7/curso_git_1.git
@@ -15,3 +15,12 @@ or push an existing repository from the command line
 git remote add origin https://github.com/fandre7/curso_git_1.git
 git branch -M main
 git push -u origin main
+
+****************************
+git remote -v    * verificar as versões
+git remote rm origin  * para remover a origem atual (origem é onde e como será arquivos)
+
+git add .   * Adiciona todos os arquivos de uma só vez.
+git commit nomeArquivo -m "mensagem"    * confirma o aqui específico e acrescenta a mensagem de lembrança.
+git commit -a -m "Enviando toda a funcionalidade x"  *-a vem de all e -m de mensagem, confirma todos os arquivos.
+
