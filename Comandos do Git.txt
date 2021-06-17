@@ -24,3 +24,8 @@ git add .   * Adiciona todos os arquivos de uma só vez.
 git commit nomeArquivo -m "mensagem"    * confirma o aqui específico e acrescenta a mensagem de lembrança.
 git commit -a -m "Enviando toda a funcionalidade x"  *-a vem de all e -m de mensagem, confirma todos os arquivos.
 
+git push   * Envia os arquivos para o repositorio do github.
+
+git pull   * Puxar os aruquivos do repositório para atualizar nossa máquina.
+
+git clone endereçoRepositorio *clonar um repositório já iniciado para a nossa máquina.
