@@ -30,11 +30,28 @@ git pull   * Puxar os aruquivos do repositório para atualizar nossa máquina.
 
 git clone endereçoRepositorio *clonar um repositório já iniciado para a nossa máquina.
 
+git rm nomedoarquivo.ext   *Exclui o arquivo do repositório mas tem que dá o commit e o push para alterar nas nuvens.
 
-Depois das alterações seguir os procedimentos padrões:
+git log     * mostra todos os logs das operações realizadas e para sair é o q ou ctrl+c
+
+
+Procedimento para adicionar arquivos:
+git status
+git add . 
+git commit -a -m "Enviando os arquivos novos do projeto"
+git push
+*****************************************************
+
+Procedimento para alterações dos arquivos:
 git status
 git commit -a -m "Enviando toda a funcionalidade x"
 git push
 *****************************************************
 clear limpa a tela
 
+Procedimentos para exclusão do arquivo:
+git rm nomedoarquivo.ext 
+git status
+git commit -a -m "Excluindo o arquivo tal do repositorio"
+git push
+*****************************************************
