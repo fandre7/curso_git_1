@@ -36,3 +36,5 @@ git status
 git commit -a -m "Enviando toda a funcionalidade x"
 git push
 *****************************************************
+clear limpa a tela
+
