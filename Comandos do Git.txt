@@ -29,3 +29,10 @@ git push   * Envia os arquivos para o repositorio do github.
 git pull   * Puxar os aruquivos do repositório para atualizar nossa máquina.
 
 git clone endereçoRepositorio *clonar um repositório já iniciado para a nossa máquina.
+
+
+Depois das alterações seguir os procedimentos padrões:
+git status
+git commit -a -m "Enviando toda a funcionalidade x"
+git push
+*****************************************************
